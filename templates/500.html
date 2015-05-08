@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% load static from staticfiles %}
+
+
+{% block title %}500 Error!{% endblock title %}
+
+
+{% block nav_header %}Ooniversity > Server error{% endblock %}
+
+
+{% block main_content %}
+
+    <div>
+
+      <br>
+      <h1> 500 - Server error !!! </h1>
+      <br>
+      <br>
+
+      <h2 align=center>
+        <i>
+          {{ 'Внутренняя ошибка сервера :(' }}
+        </i>
+      </h2>
+
+      <br><br>
+
+    </div>
+
+{% endblock main_content %}
